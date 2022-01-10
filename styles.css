@@ -1,7 +1,45 @@
-html, body {
-    font-family: 'Open Sans', sans-serif;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url('bg.jpg');
+  background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img-perfil {
+    border: 3px solid #000000;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    text-align: center;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
+}
+
+h4 {
+    margin-bottom: 0;
 }
